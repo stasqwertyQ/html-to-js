@@ -6,15 +6,13 @@
 const butJS = document.querySelector(".castomButton");
 const inpJS = document.querySelector("InputText");
 
-document.getElementById("castomButton").addEventListener("click", function () {
+const button = document.getElementById("castomButton");
 
-const inputValue = document.getElementById("InputText").value;
 
-  document.getElementById("castomButton").innerText = inputValue;
-});
+console.log(button.textContent);
 
-    
 
+button.textContent = 'JAVASK'
 
 
 
@@ -55,3 +53,4 @@ const castom = document.getElementById('list--JS');
 console.log(castom.textContent);
 
 castom.textContent = 'JavaScript';
+
